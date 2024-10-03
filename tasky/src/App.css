@@ -35,6 +35,10 @@ div {
   font-size: 1.2em; 
 }
 
+.description {
+  font-style: italic;
+}
+
 button {
   border: none;
   border-radius: 3px;
@@ -88,4 +92,23 @@ form {
   text-align: left;
   width: 50%;
   margin: auto;
+}
+
+.priority.LOW {
+  background-color: green; 
+}
+
+.priority.MEDIUM {
+  background-color: orange; 
+}
+
+.priority.HIGH {
+  background-color: red; 
+}
+
+.priority {
+  padding: 5px;
+  border-radius: 3px;
+  color: white; 
+  font-weight: bold;
 }
